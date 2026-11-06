@@ -1,44 +1,29 @@
+<?php
+/** Default fallback template. */
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
 
-<!DOCTYPE html>
-<html <?php language_attributes(); ?>>
-<head>
-    <meta charset="<?php bloginfo('charset'); ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?php wp_head(); ?>
-</head>
-
-<body <?php body_class(); ?>>
-<?php wp_body_open(); ?>
-
-<header>
-    <h1><?php bloginfo('name'); ?></h1>
-    <p><?php bloginfo('description'); ?></p>
-</header>
-
-<main>
-    <?php if (have_posts()) : ?>
-        <?php while (have_posts()) : the_post(); ?>
-
-            <article>
-                <h2>
-                    <a href="<?php the_permalink(); ?>">
-                        <?php the_title(); ?>
-                    </a>
-                </h2>
-
-                <?php the_content(); ?>
-            </article>
-
-        <?php endwhile; ?>
-    <?php else : ?>
-        <p>No posts found.</p>
-    <?php endif; ?>
+get_header();
+?>
+<main id="main-content" class="content-shell">
+	<?php if ( have_posts() ) : ?>
+		<?php while ( have_posts() ) : the_post(); ?>
+			<article <?php post_class(); ?>>
+				<p class="eyebrow"><?php echo esc_html( get_the_date() ); ?></p>
+				<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+				<div class="entry-content"><?php the_content(); ?></div>
+			</article>
+		<?php endwhile; ?>
+		<nav class="pagination" aria-label="<?php esc_attr_e( 'Posts', 'myportfolio' ); ?>">
+			<?php the_posts_pagination(); ?>
+		</nav>
+	<?php else : ?>
+		<article>
+			<h1><?php esc_html_e( 'Nothing here yet', 'myportfolio' ); ?></h1>
+			<p><?php esc_html_e( 'Add a page or post in WordPress to get started.', 'myportfolio' ); ?></p>
+		</article>
+	<?php endif; ?>
 </main>
-
-<footer>
-    <p>My First WordPress Theme</p>
-</footer>
-
-<?php wp_footer(); ?>
-</body>
-</html>
+<?php
+get_footer();
