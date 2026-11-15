@@ -7,6 +7,7 @@
 </head>
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
+<a class="skip-link" href="#main-content"><?php esc_html_e('Skip to content', 'teamportfolio'); ?></a>
 <header class="site-header">
     <div class="container nav-wrap">
         <a class="brand" href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
@@ -17,7 +18,7 @@
                 array(
                     'theme_location' => 'primary',
                     'container'      => false,
-                    'fallback_cb'    => false,
+                    'fallback_cb'    => 'teamportfolio_primary_menu_fallback',
                     'menu_class'     => 'menu',
                 )
             );

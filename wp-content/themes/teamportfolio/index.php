@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main class="site-main container">
+<main id="main-content" class="site-main container">
     <?php if (have_posts()) : ?>
         <header class="page-header">
             <h1><?php bloginfo('name'); ?></h1>
