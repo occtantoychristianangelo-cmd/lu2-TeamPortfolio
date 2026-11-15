@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" fill="none">
+  <rect width="1200" height="760" rx="18" fill="#E5EBDD"/>
+  <circle cx="1010" cy="136" r="165" fill="#D5E2D2"/>
+  <circle cx="1010" cy="136" r="108" stroke="#B7C8B8" stroke-width="2"/>
+  <rect x="86" y="72" width="1028" height="616" rx="18" fill="#FFFEFA" stroke="#DCE2DA" stroke-width="2"/>
+  <path d="M104 72h992a18 18 0 0 1 18 18v76H86V90a18 18 0 0 1 18-18Z" fill="#244738"/>
+  <circle cx="122" cy="111" r="7" fill="#EF8A70"/>
+  <circle cx="148" cy="111" r="7" fill="#DCE9A3"/>
+  <circle cx="174" cy="111" r="7" fill="#A8C9D5"/>
+  <text x="216" y="120" fill="#FFFEFA" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing=".5">RESTO FREENO</text>
+  <text x="130" y="228" fill="#315C4B" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="3">RESTAURANT OPERATIONS</text>
+  <text x="130" y="292" fill="#1C2825" font-family="Georgia, serif" font-size="46">A clearer view of</text>
+  <text x="130" y="348" fill="#1C2825" font-family="Georgia, serif" font-size="46">the day’s service.</text>
+  <rect x="130" y="402" width="176" height="44" rx="22" fill="#315C4B"/>
+  <text x="162" y="430" fill="#FFFEFA" font-family="Arial, sans-serif" font-size="15" font-weight="700">CONCEPT PREVIEW</text>
+  <rect x="130" y="500" width="275" height="130" rx="12" fill="#F5F7F0" stroke="#DCE2DA" stroke-width="2"/>
+  <circle cx="166" cy="540" r="12" fill="#EF8A70"/>
+  <text x="193" y="546" fill="#68736E" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.3">ORDERS</text>
+  <text x="159" y="595" fill="#1C2825" font-family="Georgia, serif" font-size="25">Order flow</text>
+  <rect x="430" y="500" width="275" height="130" rx="12" fill="#F5F7F0" stroke="#DCE2DA" stroke-width="2"/>
+  <circle cx="466" cy="540" r="12" fill="#A8C9D5"/>
+  <text x="493" y="546" fill="#68736E" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.3">TABLES</text>
+  <text x="459" y="595" fill="#1C2825" font-family="Georgia, serif" font-size="25">Table sessions</text>
+  <rect x="730" y="500" width="330" height="130" rx="12" fill="#F5F7F0" stroke="#DCE2DA" stroke-width="2"/>
+  <circle cx="766" cy="540" r="12" fill="#C4BCE2"/>
+  <text x="793" y="546" fill="#68736E" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.3">OPERATIONS</text>
+  <text x="759" y="595" fill="#1C2825" font-family="Georgia, serif" font-size="25">Stock &amp; service</text>
+</svg>

@@ -168,7 +168,7 @@
     font-size: 0.66rem;
     font-weight: 750;
     letter-spacing: 0.04em;
-    animation: tagFloat 5s ease-in-out infinite;
+    animation: tagFloat 7s ease-in-out infinite;
 }
 
 .tag-top {
@@ -184,15 +184,105 @@
     animation-delay: -2.5s;
 }
 
+.jose-peek {
+    position: fixed;
+    z-index: 9;
+    bottom: 0;
+    left: 0;
+    width: clamp(132px, 17vw, 205px);
+    height: clamp(190px, 31vh, 285px);
+    overflow: hidden;
+    pointer-events: none;
+    transform: translateX(-102%);
+    transition: transform 700ms cubic-bezier(0.2, 0.75, 0.25, 1);
+}
+
+.jose-peek.is-peeking {
+    transform: translateX(0);
+}
+
+.jose-peek img {
+    display: block;
+    width: auto;
+    max-width: none;
+    height: 100%;
+}
+
+.christmas-snowfall {
+    position: fixed;
+    z-index: 9;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.christmas-mode .christmas-snowfall {
+    visibility: visible;
+}
+
+.snowflake {
+    position: absolute;
+    top: -12vh;
+    width: var(--flake-size);
+    height: var(--flake-size);
+    background: #7dd3fc;
+    -webkit-mask: var(--flake-mask) center / contain no-repeat;
+    mask: var(--flake-mask) center / contain no-repeat;
+    opacity: var(--flake-opacity);
+    filter: drop-shadow(0 0 3px rgba(125, 211, 252, 0.75));
+    animation: snowFall var(--flake-duration) linear var(--flake-delay) infinite;
+    animation-play-state: paused;
+}
+
+.christmas-mode .snowflake {
+    animation-play-state: running;
+}
+
+@keyframes snowFall {
+    from { transform: translate3d(0, -10vh, 0) rotate(0deg); }
+    to { transform: translate3d(var(--flake-drift), 115vh, 0) rotate(300deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .christmas-mode .christmas-snowfall {
+        display: none;
+    }
+}
+
 .has-scroll-reveal [data-reveal] {
     opacity: 0;
-    transform: translateY(22px);
-    transition: opacity 0.65s ease, transform 0.65s cubic-bezier(0.2, 0.65, 0.25, 1);
+    translate: 0 22px;
+    transition: opacity 0.65s ease, translate 0.65s cubic-bezier(0.2, 0.65, 0.25, 1);
 }
 
 .has-scroll-reveal [data-reveal].is-visible {
     opacity: 1;
-    transform: translateY(0);
+    translate: 0 0;
+}
+
+.has-scroll-reveal .hero-copy > * {
+    opacity: 0;
+    translate: 0 10px;
+    transition: opacity 0.55s ease, translate 0.55s cubic-bezier(0.2, 0.65, 0.25, 1);
+}
+
+.has-scroll-reveal .hero-copy.is-visible > * {
+    opacity: 1;
+    translate: 0 0;
+}
+
+.has-scroll-reveal .hero-copy.is-visible > :nth-child(2) { transition-delay: 70ms; }
+.has-scroll-reveal .hero-copy.is-visible > :nth-child(3) { transition-delay: 140ms; }
+.has-scroll-reveal .hero-copy.is-visible > :nth-child(4) { transition-delay: 210ms; }
+
+.hero-copy h1 .title-letter {
+    display: inline-block;
+}
+
+.hero-copy.is-visible h1 .title-letter {
+    animation: titleLetterBounce 2.6s ease-in-out infinite;
+    animation-delay: calc(var(--letter-index) * 90ms);
 }
 
 .feature-grid [data-reveal]:nth-child(2),
@@ -213,6 +303,24 @@
 @keyframes orbitFloat {
     0%, 100% { transform: translateY(0) rotate(0); }
     50% { transform: translateY(-13px) rotate(5deg); }
+}
+
+@keyframes heroRingDrift {
+    0% { transform: translate3d(0, 0, 0) scale(1); }
+    100% { transform: translate3d(-22px, 12px, 0) scale(1.04); }
+}
+
+@keyframes titleLetterBounce {
+    0%, 100% { transform: translateY(0); }
+    3% { transform: translateY(-9px); }
+    7% { transform: translateY(0); }
+    10% { transform: translateY(-4px); }
+    14% { transform: translateY(0); }
+}
+
+@keyframes heroGlowDrift {
+    0% { opacity: 0.55; transform: translate3d(-1%, 0, 0); }
+    100% { opacity: 1; transform: translate3d(1%, 0, 0); }
 }
 
 @keyframes tagFloat {

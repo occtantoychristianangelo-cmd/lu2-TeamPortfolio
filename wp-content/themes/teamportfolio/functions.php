@@ -23,6 +23,37 @@ function teamportfolio_enqueue_assets() {
 }
 add_action('wp_enqueue_scripts', 'teamportfolio_enqueue_assets');
 
+function teamportfolio_front_page_title($title) {
+    if (is_front_page()) {
+        return __('LU2 Portfolio | Team & Projects', 'teamportfolio');
+    }
+
+    return $title;
+}
+add_filter('pre_get_document_title', 'teamportfolio_front_page_title');
+
+function teamportfolio_social_metadata() {
+    if (!is_front_page()) {
+        return;
+    }
+
+    $title = __('LU2 Portfolio | Team & Projects', 'teamportfolio');
+    $description = __('Meet the LU2 team and explore the WcDo food kiosk and Resto Freeno restaurant operations concepts.', 'teamportfolio');
+    $url = home_url('/');
+    $image = get_the_post_thumbnail_url(get_queried_object_id(), 'full');
+
+    echo '<meta name="description" content="' . esc_attr($description) . '">' . "\n";
+    echo '<meta property="og:type" content="website">' . "\n";
+    echo '<meta property="og:title" content="' . esc_attr($title) . '">' . "\n";
+    echo '<meta property="og:description" content="' . esc_attr($description) . '">' . "\n";
+    echo '<meta property="og:url" content="' . esc_url($url) . '">' . "\n";
+
+    if ($image) {
+        echo '<meta property="og:image" content="' . esc_url($image) . '">' . "\n";
+    }
+}
+add_action('wp_head', 'teamportfolio_social_metadata', 2);
+
 function teamportfolio_primary_menu_fallback() {
     echo '<ul class="menu">';
     echo '<li><a href="' . esc_url(home_url('/#home')) . '">' . esc_html__('Home', 'teamportfolio') . '</a></li>';

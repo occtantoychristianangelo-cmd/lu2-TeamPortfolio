@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Project screenshot placeholder</title>
+  <desc id="description">A replaceable template for a project screenshot.</desc>
+  <rect width="1200" height="760" fill="#B9BBA8"/>
+  <circle cx="1010" cy="145" r="155" fill="#CFD0C2"/>
+  <rect x="76" y="58" width="1048" height="644" rx="18" fill="#E8E5DD" stroke="#D2CFC6" stroke-width="2"/>
+  <path d="M94 58h1012a18 18 0 0 1 18 18v48H76V76a18 18 0 0 1 18-18Z" fill="#2A3723"/>
+  <circle cx="111" cy="91" r="7" fill="#DCBC98"/>
+  <circle cx="137" cy="91" r="7" fill="#B9BBA8"/>
+  <circle cx="163" cy="91" r="7" fill="#E8E5DD"/>
+  <rect x="112" y="160" width="976" height="492" rx="10" fill="#F3F1EC" stroke="#D2CFC6" stroke-width="2" stroke-dasharray="10 10"/>
+  <circle cx="600" cy="347" r="52" fill="#E8E5DD" stroke="#B9BBA8" stroke-width="2"/>
+  <rect x="568" y="325" width="64" height="48" rx="5" stroke="#2A3723" stroke-width="4"/>
+  <circle cx="584" cy="340" r="5" fill="#DCBC98"/>
+  <path d="m573 365 17-14 11 9 10-7 15 12" stroke="#2A3723" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="600" y="438" text-anchor="middle" fill="#0C0A08" font-family="Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="2">PROJECT SCREENSHOT</text>
+  <text x="600" y="475" text-anchor="middle" fill="#65665C" font-family="Arial, sans-serif" font-size="18">Replace this template with your project image</text>
+  <text x="600" y="618" text-anchor="middle" fill="#65665C" font-family="Arial, sans-serif" font-size="14" letter-spacing="1">RECOMMENDED: LANDSCAPE IMAGE · 1200 × 760 PX</text>
+</svg>

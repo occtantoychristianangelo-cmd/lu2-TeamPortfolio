@@ -10,7 +10,7 @@
 <a class="skip-link" href="#main-content"><?php esc_html_e('Skip to content', 'teamportfolio'); ?></a>
 <header class="site-header">
     <div class="container nav-wrap">
-        <a class="brand" href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
+        <a class="brand" href="<?php echo esc_url(home_url('/')); ?>">LU2 Portfolio</a>
 
         <nav class="main-nav" aria-label="Primary navigation">
             <?php
