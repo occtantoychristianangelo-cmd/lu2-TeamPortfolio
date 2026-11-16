@@ -189,8 +189,8 @@
     z-index: 9;
     bottom: 0;
     left: 0;
-    width: clamp(132px, 17vw, 205px);
-    height: clamp(190px, 31vh, 285px);
+    width: clamp(190px, 27vw, 320px);
+    height: clamp(260px, 50vh, 440px);
     overflow: hidden;
     pointer-events: none;
     transform: translateX(-102%);
@@ -206,6 +206,34 @@
     width: auto;
     max-width: none;
     height: 100%;
+}
+
+.jose-peek.peek-right {
+    right: 0;
+    left: auto;
+    transform: translateX(102%);
+}
+
+.jose-peek.peek-right.is-peeking {
+    transform: translateX(0);
+}
+
+.jose-peek.peek-right img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: scaleX(-1);
+}
+
+.jose-peek.peek-top {
+    top: 76px;
+    bottom: auto;
+}
+
+.jose-peek.peek-middle {
+    top: 50%;
+    bottom: auto;
+    translate: 0 -50%;
 }
 
 .christmas-snowfall {

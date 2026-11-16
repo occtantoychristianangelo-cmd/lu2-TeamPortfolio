@@ -17,9 +17,14 @@ function teamportfolio_setup() {
 add_action('after_setup_theme', 'teamportfolio_setup');
 
 function teamportfolio_enqueue_assets() {
-    wp_enqueue_style('teamportfolio-style', get_template_directory_uri() . '/css/style.css', array(), wp_get_theme()->get('Version'));
-    wp_enqueue_style('teamportfolio-home', get_template_directory_uri() . '/css/homesection.css', array('teamportfolio-style'), wp_get_theme()->get('Version'));
-    wp_enqueue_script('teamportfolio-motion', get_template_directory_uri() . '/js/motion.js', array(), wp_get_theme()->get('Version'), true);
+    $theme_directory = get_template_directory();
+    $style_version = file_exists($theme_directory . '/css/style.css') ? filemtime($theme_directory . '/css/style.css') : wp_get_theme()->get('Version');
+    $home_version = file_exists($theme_directory . '/css/homesection.css') ? filemtime($theme_directory . '/css/homesection.css') : wp_get_theme()->get('Version');
+    $motion_version = file_exists($theme_directory . '/js/motion.js') ? filemtime($theme_directory . '/js/motion.js') : wp_get_theme()->get('Version');
+
+    wp_enqueue_style('teamportfolio-style', get_template_directory_uri() . '/css/style.css', array(), $style_version);
+    wp_enqueue_style('teamportfolio-home', get_template_directory_uri() . '/css/homesection.css', array('teamportfolio-style'), $home_version);
+    wp_enqueue_script('teamportfolio-motion', get_template_directory_uri() . '/js/motion.js', array(), $motion_version, true);
 }
 add_action('wp_enqueue_scripts', 'teamportfolio_enqueue_assets');
 

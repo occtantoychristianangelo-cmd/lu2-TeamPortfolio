@@ -4,6 +4,36 @@
     var joseAudio = document.querySelector(".jose-peek-audio");
 
     if (josePeek && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        var joseSoundEnabled = false;
+        var peekSides = ["left", "right"];
+        var peekSideIndex = Math.floor(Math.random() * peekSides.length);
+
+        var playJoseAudio = function () {
+            if (!joseAudio || !joseSoundEnabled) {
+                return;
+            }
+
+            joseAudio.volume = 0.45;
+            var playback = joseAudio.play();
+            if (playback && typeof playback.catch === "function") {
+                playback.catch(function () {
+                    joseSoundEnabled = false;
+                });
+            }
+        };
+
+        var enableJoseSound = function () {
+            joseSoundEnabled = true;
+            if (josePeek.classList.contains("is-peeking")) {
+                playJoseAudio();
+            }
+            document.removeEventListener("pointerdown", enableJoseSound);
+            document.removeEventListener("keydown", enableJoseSound);
+        };
+
+        document.addEventListener("pointerdown", enableJoseSound, { once: true, passive: true });
+        document.addEventListener("keydown", enableJoseSound, { once: true });
+
         if (snowfall) {
             var flakeSource = josePeek.querySelector("img").src.replace("jose.png", "snowflake.svg");
 
@@ -33,15 +63,19 @@
                     return;
                 }
 
+                josePeek.classList.remove("peek-right");
+                josePeek.style.top = "auto";
+                josePeek.style.bottom = "0";
+                josePeek.style.translate = "0 0";
+                var peekSide = peekSides[peekSideIndex % peekSides.length];
+                peekSideIndex += 1;
+                if (peekSide === "right") {
+                    josePeek.classList.add("peek-right");
+                }
+
                 josePeek.classList.add("is-peeking");
                 document.documentElement.classList.add("christmas-mode");
-                if (joseAudio) {
-                    joseAudio.volume = 0.45;
-                    var playback = joseAudio.play();
-                    if (playback && typeof playback.catch === "function") {
-                        playback.catch(function () {});
-                    }
-                }
+                playJoseAudio();
                 window.setTimeout(function () {
                     josePeek.classList.remove("is-peeking");
                     document.documentElement.classList.remove("christmas-mode");
@@ -54,7 +88,15 @@
             }, delay);
         };
 
-        scheduleJosePeek(12000, 30000);
+        var startInitialPeek = function () {
+            scheduleJosePeek(1200, 1800);
+        };
+
+        if (document.readyState === "complete") {
+            startInitialPeek();
+        } else {
+            window.addEventListener("load", startInitialPeek, { once: true });
+        }
     }
 
     var elements = document.querySelectorAll("[data-reveal]");

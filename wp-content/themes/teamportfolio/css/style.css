@@ -44,7 +44,20 @@ html.christmas-mode .hero {
 }
 
 html.christmas-mode .site-header {
-    background: rgba(247, 243, 232, 0.94);
+    background: #c9483a;
+    border-bottom-color: rgba(247, 243, 232, 0.28);
+}
+
+html.christmas-mode .site-header .brand,
+html.christmas-mode .site-header .menu,
+html.christmas-mode .site-header .menu a {
+    color: #fffdf6;
+}
+
+html.christmas-mode .site-header .brand::first-letter,
+html.christmas-mode .site-header .menu a:hover,
+html.christmas-mode .site-header .menu a:focus {
+    color: #f7d794;
 }
 
 html.christmas-mode .features,
@@ -745,7 +758,10 @@ img {
 
 .footer-wrap {
     display: flex;
+    align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 16px;
     text-align: center;
 }
 
