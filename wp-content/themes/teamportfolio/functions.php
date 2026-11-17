@@ -63,6 +63,7 @@ function teamportfolio_primary_menu_fallback() {
     echo '<ul class="menu">';
     echo '<li><a href="' . esc_url(home_url('/#home')) . '">' . esc_html__('Home', 'teamportfolio') . '</a></li>';
     echo '<li><a href="' . esc_url(home_url('/#projects')) . '">' . esc_html__('Projects', 'teamportfolio') . '</a></li>';
+    echo '<li><a href="' . esc_url(home_url('/#games')) . '">' . esc_html__('Games', 'teamportfolio') . '</a></li>';
     echo '<li><a href="' . esc_url(home_url('/#team')) . '">' . esc_html__('Team', 'teamportfolio') . '</a></li>';
     echo '<li><a href="' . esc_url(home_url('/#contact')) . '">' . esc_html__('Contact', 'teamportfolio') . '</a></li>';
     echo '</ul>';

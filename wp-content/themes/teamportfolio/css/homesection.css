@@ -109,6 +109,14 @@
     padding: 10px;
     border: 1px solid var(--border);
     background: rgba(243, 241, 236, 0.78);
+    transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.menu-item:hover {
+    transform: translateX(4px);
+    border-color: rgba(42, 55, 35, 0.4);
+    background: var(--paper);
+    box-shadow: 0 5px 14px rgba(12, 10, 8, 0.07);
 }
 
 .menu-emoji {
@@ -119,6 +127,11 @@
     place-items: center;
     background: var(--sand);
     font-size: 1.1rem;
+    transition: transform 0.22s ease;
+}
+
+.menu-item:hover .menu-emoji {
+    transform: rotate(-6deg) scale(1.06);
 }
 
 .menu-item > span:nth-child(2) {
@@ -137,6 +150,11 @@
 
 .menu-item > b {
     color: var(--forest);
+    transition: transform 0.2s ease;
+}
+
+.menu-item:hover > b {
+    transform: translateX(3px);
 }
 
 .kiosk-footer {
