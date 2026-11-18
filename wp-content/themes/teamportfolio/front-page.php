@@ -13,22 +13,22 @@
                 </div>
             </div>
 
-            <div class="hero-visual" aria-label="Preview of the WcDo food ordering kiosk" data-reveal>
+            <div class="hero-visual" aria-label="Preview of the BotiTea drink shop management system" data-reveal>
                 <div class="visual-orb orb-one"></div>
                 <div class="visual-orb orb-two"></div>
                 <div class="kiosk-card">
                     <div class="kiosk-topline">
-                        <span class="kiosk-mark" aria-hidden="true">W</span>
-                        <span>WcDo <small>ORDER KIOSK</small></span>
-                        <span class="kiosk-status"><i></i> Ready to order</span>
+                        <span class="kiosk-mark" aria-hidden="true">B</span>
+                        <span>BotiTea <small>DRINK SHOP</small></span>
+                        <span class="kiosk-status"><i></i> SHOP DASHBOARD</span>
                     </div>
-                    <p class="kiosk-greeting">Good food, your way.</p>
+                    <p class="kiosk-greeting">A clearer view of the shop.</p>
                     <div class="kiosk-menu">
-                        <div class="menu-item"><span class="menu-emoji" aria-hidden="true">🍔</span><span><strong>Burgers</strong><small>Made for your appetite</small></span><b>→</b></div>
-                        <div class="menu-item"><span class="menu-emoji" aria-hidden="true">🍟</span><span><strong>Sides</strong><small>Make it a meal</small></span><b>→</b></div>
-                        <div class="menu-item"><span class="menu-emoji" aria-hidden="true">🥤</span><span><strong>Drinks</strong><small>A refreshing finish</small></span><b>→</b></div>
+                        <div class="menu-item"><span class="menu-emoji" aria-hidden="true">🧋</span><span><strong>Order tracking</strong><small>Keep up with incoming orders</small></span><b>→</b></div>
+                        <div class="menu-item"><span class="menu-emoji" aria-hidden="true">🥤</span><span><strong>Drink products</strong><small>Milk tea and other drinks</small></span><b>→</b></div>
+                        <div class="menu-item"><span class="menu-emoji" aria-hidden="true">👥</span><span><strong>Staff tools</strong><small>Accounts for the shop team</small></span><b>→</b></div>
                     </div>
-                    <div class="kiosk-footer"><span>Choose a category to get started</span><span class="kiosk-arrow" aria-hidden="true">↗</span></div>
+                    <div class="kiosk-footer"><span>Drink shop management</span><span class="kiosk-arrow" aria-hidden="true">↗</span></div>
                 </div>
                 <span class="floating-tag tag-top">Our projects</span>
                 <span class="floating-tag tag-bottom">Made together</span>
@@ -41,7 +41,7 @@
             <div class="section-heading" data-reveal>
                 <p class="eyebrow">What brings us together</p>
                 <h2 id="approach-title">Good ideas, made more useful.</h2>
-                <p class="section-intro">LU2 brings four collaborators and their work together in one place. Explore WcDo, a self-service food-ordering concept, and Resto Freeno, a restaurant-operations concept.</p>
+                <p class="section-intro">LU2 brings four collaborators and their work together in one place. Explore BotiTea, a drink shop management system, and Resto Freeno, a broader restaurant operations system.</p>
             </div>
             <div class="feature-grid">
                 <article class="feature-item" data-reveal>
@@ -57,7 +57,7 @@
                 <article class="feature-item" data-reveal>
                     <span class="card-number">03 / PRACTICAL</span>
                     <h3>Ideas you can interact with</h3>
-                    <p>Our concepts explore self-service food ordering and a clearer day-to-day view of restaurant orders, tables, and stock.</p>
+                    <p>Our projects explore focused drink shop tools and a broader day-to-day view of restaurant orders, menus, and service.</p>
                 </article>
             </div>
         </div>
@@ -130,14 +130,14 @@
                     <div class="project-art">
                         <img
                             class="project-preview"
-                            src="<?php echo esc_url(get_theme_file_uri('/assets/image/project-screenshot-template.svg')); ?>"
-                            alt="Screenshot placeholder for the LU2 Portfolio project"
-                            width="1200"
-                            height="760"
+                            src="<?php echo esc_url(get_theme_file_uri('/assets/image/ProjectsImages/LU2Portfolio.png')); ?>"
+                            alt="Screenshot of the LU2 Portfolio website"
+                            width="1910"
+                            height="4414"
                             loading="lazy"
                             decoding="async"
                         >
-                        <span class="preview-badge">SCREENSHOT PLACEHOLDER</span>
+                        <span class="preview-badge">TEAM PORTFOLIO</span>
                     </div>
                     <div class="project-content">
                         <p class="project-type">TEAM WEBSITE · PORTFOLIO</p>
@@ -152,7 +152,7 @@
                             <summary>Project snapshot</summary>
                             <p><strong>Purpose:</strong> Bring the four team profiles, project summaries, and contact links together in one place.</p>
                             <p><strong>For:</strong> Visitors who want to meet the team and explore its work.</p>
-                            <p><strong>Preview:</strong> The image is a replaceable placeholder, not a screenshot of the finished page.</p>
+                            <p><strong>Preview:</strong> Screenshot of the portfolio website.</p>
                             <ol class="project-flow" aria-label="Portfolio visitor flow">
                                 <li><span>01</span> Meet the team</li>
                                 <li><span>02</span> Explore projects</li>
@@ -163,59 +163,61 @@
                     </div>
                 </article>
 
-                <article class="project-card" data-reveal role="group" aria-roledescription="slide" aria-label="2 of 3: WcDo">
+                <article class="project-card" data-reveal role="group" aria-roledescription="slide" aria-label="2 of 3: BotiTea">
                     <div class="project-art">
-                        <img
-                            class="project-preview"
-                            src="<?php echo esc_url(get_theme_file_uri('/assets/image/wcdo-preview.svg')); ?>"
-                            alt="Illustrated preview of the WcDo self-service ordering kiosk"
-                            width="1200"
-                            height="760"
-                            loading="lazy"
-                            decoding="async"
-                        >
-                        <span class="preview-badge">KIOSK CONCEPT</span>
+                        <div class="project-gallery" aria-label="BotiTea project screenshots">
+                            <img class="project-preview gallery-main" src="<?php echo esc_url(get_theme_file_uri('/assets/image/ProjectsImages/BotiTea-S1.png')); ?>" alt="BotiTea staff dashboard with order analytics" width="1919" height="947" loading="lazy" decoding="async">
+                            <img class="project-preview gallery-side gallery-side-top" src="<?php echo esc_url(get_theme_file_uri('/assets/image/ProjectsImages/BotiTea-S2.png')); ?>" alt="BotiTea admin staff management screen" width="1915" height="949" loading="lazy" decoding="async">
+                            <img class="project-preview gallery-side gallery-side-bottom" src="<?php echo esc_url(get_theme_file_uri('/assets/image/ProjectsImages/BotiTea-S3.png')); ?>" alt="BotiTea milk tea product management catalog" width="1915" height="942" loading="lazy" decoding="async">
+                        </div>
+                        <span class="preview-badge">DRINK SHOP SYSTEM</span>
                     </div>
                     <div class="project-content">
-                        <p class="project-type">FOOD SERVICE · KIOSK CONCEPT</p>
-                        <h3>WcDo</h3>
-                        <p>WcDo is a quick-service kiosk concept for customers ordering at the counter. It explores a simple flow from browsing food categories to building a meal.</p>
+                        <div class="project-brand">
+                            <span class="project-logo"><img src="<?php echo esc_url(get_theme_file_uri('/assets/image/ProjectsImages/BotiTeaLogo.png')); ?>" alt="BotiTea mascot logo" width="408" height="612" loading="lazy" decoding="async"></span>
+                            <div>
+                                <p class="project-type">DRINK SHOP · ORDER MANAGEMENT</p>
+                                <h3>BotiTea</h3>
+                            </div>
+                        </div>
+                        <p>BotiTea helps a milk tea and drinks shop manage its day-to-day service. Its focused interface brings drink products, incoming orders, and staff tools into one place.</p>
                         <ul class="project-points">
-                            <li>Browse food and drink categories</li>
-                            <li>Build a meal from a clear menu</li>
-                            <li>A streamlined counter-ordering flow</li>
+                            <li>Track new, received, and cancelled orders</li>
+                            <li>Manage milk tea and other drink products</li>
+                            <li>Admin tools for staff and shop operations</li>
                         </ul>
                         <details class="project-details">
                             <summary>Project snapshot</summary>
-                            <p><strong>Audience:</strong> Customers placing an order at a quick-service restaurant.</p>
-                            <p><strong>Focus:</strong> Browsing categories, building a meal, and reviewing an order at a self-service kiosk.</p>
-                            <p><strong>Status:</strong> Interface concept. The preview menu and prices are illustrative, not a live service.</p>
-                            <ol class="project-flow" aria-label="WcDo ordering flow">
-                                <li><span>01</span> Browse categories</li>
-                                <li><span>02</span> Build a meal</li>
-                                <li><span>03</span> Review the order</li>
+                            <p><strong>Audience:</strong> Staff and administrators at a milk tea and drinks shop.</p>
+                            <p><strong>Focus:</strong> A focused set of shop tools for order tracking, drink catalog management, and staff accounts.</p>
+                            <p><strong>Scope:</strong> BotiTea is a smaller, drinks-focused system compared with Resto Freeno’s wider restaurant operations coverage.</p>
+                            <ol class="project-flow" aria-label="BotiTea system areas">
+                                <li><span>01</span> Review orders</li>
+                                <li><span>02</span> Manage drinks</li>
+                                <li><span>03</span> Support staff</li>
                             </ol>
                         </details>
-                        <a class="project-link" href="#contact">Ask us about WcDo <svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                        <a class="project-link" href="#contact">Ask us about BotiTea <svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
                     </div>
                 </article>
 
                 <article class="project-card" data-reveal role="group" aria-roledescription="slide" aria-label="3 of 3: Resto Freeno">
                     <div class="project-art">
-                        <img
-                            class="project-preview"
-                            src="<?php echo esc_url(get_theme_file_uri('/assets/image/resto-freeno-preview.svg')); ?>"
-                            alt="Illustrated overview of the Resto Freeno restaurant operations interface"
-                            width="1200"
-                            height="760"
-                            loading="lazy"
-                            decoding="async"
-                        >
-                        <span class="preview-badge">OPERATIONS CONCEPT</span>
+                        <div class="project-gallery" aria-label="Resto Freeno project screenshots">
+                            <img class="project-preview gallery-main" src="<?php echo esc_url(get_theme_file_uri('/assets/image/ProjectsImages/RestoFreeno-S1.png')); ?>" alt="Resto Freeno menu management screen" width="1920" height="2560" loading="lazy" decoding="async">
+                            <img class="project-preview gallery-side gallery-side-top" src="<?php echo esc_url(get_theme_file_uri('/assets/image/ProjectsImages/RestoFreeno-S2.png')); ?>" alt="Resto Freeno restaurant operations screenshot" loading="lazy" decoding="async">
+                            <img class="project-preview gallery-side gallery-side-bottom" src="<?php echo esc_url(get_theme_file_uri('/assets/image/ProjectsImages/RestoFreeno-S3.png')); ?>" alt="Resto Freeno additional system screen" loading="lazy" decoding="async">
+                        </div>
+                        <span class="preview-badge">RESTAURANT SYSTEM</span>
                     </div>
                     <div class="project-content">
-                        <p class="project-type">RESTAURANT OPERATIONS · CONCEPT</p>
-                        <h3>Resto Freeno</h3>
+                        <div class="project-brand">
+                            <span class="project-logo"><img src="<?php echo esc_url(get_theme_file_uri('/assets/image/ProjectsImages/RestoFreenoLogo.jpg')); ?>" alt="Resto Freeno logo" width="693" height="693" loading="lazy" decoding="async"></span>
+                            <div>
+                                <p class="project-type">RESTAURANT OPERATIONS · MANAGEMENT SYSTEM</p>
+                                <h3>Resto Freeno</h3>
+                            </div>
+                        </div>
                         <p>Resto Freeno explores how restaurant teams can see orders, table sessions, and stock information together during daily service.</p>
                         <ul class="project-points">
                             <li>Order flow overview</li>
@@ -396,7 +398,7 @@
             <div class="contact-copy">
                 <p class="eyebrow">Start a conversation</p>
                 <h2 id="contact-title">Let’s talk about what you’re building.</h2>
-                <p>Have a question about WcDo or Resto Freeno, feedback on the portfolio, or an idea to explore? Send the team a note or reach out to a member directly.</p>
+                <p>Have a question about BotiTea or Resto Freeno, feedback on the portfolio, or an idea to explore? Send the team a note or reach out to a member directly.</p>
                 <ul class="contact-topics" aria-label="Reasons to contact the team">
                     <li>Project questions</li>
                     <li>Portfolio feedback</li>

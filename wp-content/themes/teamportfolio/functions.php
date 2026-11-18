@@ -43,7 +43,7 @@ function teamportfolio_social_metadata() {
     }
 
     $title = __('LU2 Portfolio | Team & Projects', 'teamportfolio');
-    $description = __('Meet the LU2 team and explore the WcDo food kiosk and Resto Freeno restaurant operations concepts.', 'teamportfolio');
+    $description = __('Meet the LU2 team and explore BotiTea, a drinks-focused shop management system, and Resto Freeno restaurant operations.', 'teamportfolio');
     $url = home_url('/');
     $image = get_the_post_thumbnail_url(get_queried_object_id(), 'full');
 

@@ -8,15 +8,15 @@ LU2 Portfolio is a WordPress theme and homepage for a four-person project team. 
 
 The portfolio brings our people and work together in one place. Visitors can read the team profiles, explore project summaries, and contact a member directly. The responsive layout uses individual team portraits, subtle on-scroll reveals, and hover interactions to make the site feel lively without getting in the way.
 
-### WcDo — food ordering kiosk concept
+### BotiTea — drinks shop management system
 
-WcDo is a point-of-sale and self-service ordering kiosk concept inspired by quick-service restaurant kiosks such as McDonald's. It is intended to let customers browse food and drink categories, build an order, and move through a straightforward counter-ordering experience. The illustrated concept artwork is `wp-content/themes/teamportfolio/assets/image/wcdo-preview.svg`. The project is presented here as a concept; the sample menu and prices are illustrative, and this portfolio does not claim that payment processing, kitchen management, or a production POS backend is implemented.
+BotiTea is a focused management system for a milk tea and drinks shop. Its staff and admin screens cover order tracking, drink product management, and staff accounts. The system centers on beverages such as milk tea and other drinks, rather than the broader restaurant operations covered by Resto Freeno. Screenshots are in `wp-content/themes/teamportfolio/assets/image/ProjectsImages/` as `BotiTea-S1.png`, `BotiTea-S2.png`, and `BotiTea-S3.png`.
 
-### Resto Freeno — restaurant operations concept
+### Resto Freeno — restaurant management system
 
-Resto Freeno is a restaurant operations interface concept that presents order flow, table sessions, and stock and service information in one overview. Its concept artwork is `wp-content/themes/teamportfolio/assets/image/resto-freeno-preview.svg`.
+Resto Freeno is a broader restaurant management system. Its screenshots are `RestoFreeno-S1.png`, `RestoFreeno-S2.png`, and `RestoFreeno-S3.png` in the same image directory.
 
-Project cards include expandable project notes and replaceable screenshot areas. They currently use `wp-content/themes/teamportfolio/assets/image/project-screenshot-template.svg`; replace each project's image `src` in `front-page.php` with its own screenshot when available. The screenshot template is designed for landscape images around 1200 × 760 pixels.
+Project cards include expandable project notes and show the supplied screenshots in a compact gallery. The LU2 project uses `LU2Portfolio.png`; BotiTea and Resto Freeno each display their three numbered screenshots.
 
 ## Team
 
@@ -44,7 +44,7 @@ The visual theme follows the supplied palette:
 - Warm off-white: `#e8e5dd`
 - Sand: `#dcbc98`
 
-The homepage has responsive project and team sections, animated kiosk artwork, and optional scroll-reveal effects. Scroll reveals are enabled when the browser supports `IntersectionObserver`; visitors who prefer reduced motion are shown the content without motion.
+The homepage has responsive project and team sections, an animated BotiTea drinks preview, and optional scroll-reveal effects. Scroll reveals are enabled when the browser supports `IntersectionObserver`; visitors who prefer reduced motion are shown the content without motion.
 
 ## Install
 
@@ -53,4 +53,4 @@ The homepage has responsive project and team sections, animated kiosk artwork, a
 3. Set the site name and tagline under **Settings → General**.
 4. Optionally create and assign a **Primary Menu** under **Appearance → Menus**. If no menu is assigned, the theme shows links to the homepage sections automatically.
 
-The homepage uses WordPress's `front-page.php` template. Member portraits and project screenshot templates are stored in `wp-content/themes/teamportfolio/assets/image/`. The home page supplies description and Open Graph metadata; its social preview image uses the front page's featured image when one is set. Theme styles and the motion script are in `css/` and `js/` and are enqueued by `functions.php`.
+The homepage uses WordPress's `front-page.php` template. Member portraits and project screenshots are stored in `wp-content/themes/teamportfolio/assets/image/`. The home page supplies description and Open Graph metadata; its social preview image uses the front page's featured image when one is set. Theme styles and the motion script are in `css/` and `js/` and are enqueued by `functions.php`.
