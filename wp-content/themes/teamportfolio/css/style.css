@@ -928,7 +928,7 @@ img {
     align-items: center;
     justify-content: space-between;
     gap: 12px;
-    width: 100%;
+    width: fit-content;
     min-height: 44px;
     margin: 0 0 18px;
     padding: 0 14px;
@@ -958,6 +958,19 @@ img {
 .resume-button:hover span,
 .resume-button:focus-visible span {
     transform: translate(2px, -2px);
+}
+
+.member-spotlight .resume-button {
+    border-color: var(--sand);
+    background: var(--sand);
+    color: var(--ink);
+}
+
+.member-spotlight .resume-button:hover,
+.member-spotlight .resume-button:focus-visible {
+    border-color: rgba(232, 229, 221, 0.72);
+    background: transparent;
+    color: var(--paper);
 }
 
 .resume-dialog {

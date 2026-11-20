@@ -72,6 +72,7 @@
                         <p class="spotlight-role">Programmer</p>
                         <p class="spotlight-bio">Christian enjoys programming and exploring how ideas can become working digital experiences. Outside the team, he also plays MOBA games.</p>
                         <a class="spotlight-contact" href="mailto:occ.tantoy.christianangelo@gmail.com">Email Christian <span aria-hidden="true">↗</span></a>
+                        <button class="resume-button spotlight-resume-button" type="button" data-resume-src="<?php echo esc_url(get_theme_file_uri('/assets/image/Resume/ChristianAngeloTantoy.jpg')); ?>" data-resume-name="Christian Angelo Tantoy">View resume <span aria-hidden="true">↗</span></button>
                     </div>
                     <div class="spotlight-photo"><img src="<?php echo esc_url(get_theme_file_uri('/assets/image/ChristianAngeloTantoy.png')); ?>" alt="Portrait of Christian Angelo Tantoy" loading="lazy" decoding="async"></div>
                 </div>
@@ -85,6 +86,7 @@
                         <p class="spotlight-role">Technical Writer</p>
                         <p class="spotlight-bio">Edejon writes technical content and helps make project information clear and easy to follow.</p>
                         <a class="spotlight-contact" href="mailto:occ.loquias.edejon2004@gmail.com">Email Edejon <span aria-hidden="true">↗</span></a>
+                        <button class="resume-button spotlight-resume-button" type="button" data-resume-src="<?php echo esc_url(get_theme_file_uri('/assets/image/Resume/EdejonLoquias.jpg')); ?>" data-resume-name="Edejon Loquias">View resume <span aria-hidden="true">↗</span></button>
                     </div>
                     <div class="spotlight-photo"><img src="<?php echo esc_url(get_theme_file_uri('/assets/image/EdejonLoquias.png')); ?>" alt="Portrait of Edejon Loquias" loading="lazy" decoding="async"></div>
                 </div>
@@ -98,6 +100,7 @@
                         <p class="spotlight-role">System Analyst</p>
                         <p class="spotlight-bio">Noel is a curious system analyst who likes to question assumptions and understand how things work.</p>
                         <a class="spotlight-contact" href="mailto:occ.oculares.noel@gmail.com">Email Noel <span aria-hidden="true">↗</span></a>
+                        <button class="resume-button spotlight-resume-button" type="button" data-resume-src="<?php echo esc_url(get_theme_file_uri('/assets/image/Resume/Noel Oculares.jpg')); ?>" data-resume-name="Noel Oculares">View resume <span aria-hidden="true">↗</span></button>
                     </div>
                     <div class="spotlight-photo"><img src="<?php echo esc_url(get_theme_file_uri('/assets/image/NoelOculares.png')); ?>" alt="Portrait of Noel Oculares" loading="lazy" decoding="async"></div>
                 </div>
@@ -111,6 +114,7 @@
                         <p class="spotlight-role">Project Manager</p>
                         <p class="spotlight-bio">Jhonicar follows project updates and keeps an eye on what the team should tackle next.</p>
                         <a class="spotlight-contact" href="mailto:occ.alpuerto.jhonicar@gmail.com">Email Jhonicar <span aria-hidden="true">↗</span></a>
+                        <button class="resume-button spotlight-resume-button" type="button" data-resume-src="<?php echo esc_url(get_theme_file_uri('/assets/image/Resume/JhonicarAlpuerto.jpg')); ?>" data-resume-name="Jhonicar Alpuerto">View resume <span aria-hidden="true">↗</span></button>
                     </div>
                     <div class="spotlight-photo"><img src="<?php echo esc_url(get_theme_file_uri('/assets/image/JhonicarAlpuerto.png')); ?>" alt="Portrait of Jhonicar Alpuerto" loading="lazy" decoding="async"></div>
                 </div>
@@ -337,7 +341,6 @@
                     <p class="member-role">Programmer</p>
                     <p class="member-description">Christian enjoys programming and exploring how ideas can become working digital experiences. He also plays MOBA games.</p>
                     <a class="member-profile-link" href="#profile-christian">View member profile <span aria-hidden="true">↗</span></a>
-                    <button class="resume-button" type="button" data-resume-src="<?php echo esc_url(get_theme_file_uri('/assets/image/Resume/ChristianAngeloTantoy.jpg')); ?>" data-resume-name="Christian Angelo Tantoy">View resume <span aria-hidden="true">↗</span></button>
                     <div class="member-links">
                         <a href="mailto:occ.tantoy.christianangelo@gmail.com"><svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg><span>Email Christian</span><svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
                         <a href="https://www.facebook.com/profile.php?id=100079167701761" target="_blank" rel="noopener noreferrer"><svg class="social-icon facebook-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V3.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V10H7.3v3h2.8v8h3.4Z"/></svg><span>Facebook</span><svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
@@ -353,7 +356,6 @@
                     <p class="member-role">Technical Writer</p>
                     <p class="member-description">Edejon writes technical content and helps make project information clear and easy to follow.</p>
                     <a class="member-profile-link" href="#profile-edejon">View member profile <span aria-hidden="true">↗</span></a>
-                    <button class="resume-button" type="button" data-resume-src="<?php echo esc_url(get_theme_file_uri('/assets/image/Resume/EdejonLoquias.jpg')); ?>" data-resume-name="Edejon Loquias">View resume <span aria-hidden="true">↗</span></button>
                     <div class="member-links">
                         <a href="mailto:occ.loquias.edejon2004@gmail.com"><svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg><span>Email Edejon</span><svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
                         <a href="https://www.facebook.com/share/1CbzuKs8p6/" target="_blank" rel="noopener noreferrer"><svg class="social-icon facebook-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V3.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V10H7.3v3h2.8v8h3.4Z"/></svg><span>Facebook</span><svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
@@ -369,7 +371,6 @@
                     <p class="member-role">System Analyst</p>
                     <p class="member-description">Noel is a curious system analyst who likes to question assumptions and understand how things work.</p>
                     <a class="member-profile-link" href="#profile-noel">View member profile <span aria-hidden="true">↗</span></a>
-                    <button class="resume-button" type="button" data-resume-src="<?php echo esc_url(get_theme_file_uri('/assets/image/Resume/Noel Oculares.jpg')); ?>" data-resume-name="Noel Oculares">View resume <span aria-hidden="true">↗</span></button>
                     <div class="member-links">
                         <a href="mailto:occ.oculares.noel@gmail.com"><svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg><span>Email Noel</span><svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
                         <a href="https://www.facebook.com/share/1CDjB4vEft/" target="_blank" rel="noopener noreferrer"><svg class="social-icon facebook-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V3.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V10H7.3v3h2.8v8h3.4Z"/></svg><span>Facebook</span><svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
@@ -385,7 +386,6 @@
                     <p class="member-role">Project Manager</p>
                     <p class="member-description">Jhonicar follows project updates and keeps an eye on what the team should tackle next.</p>
                     <a class="member-profile-link" href="#profile-jhonicar">View member profile <span aria-hidden="true">↗</span></a>
-                    <button class="resume-button" type="button" data-resume-src="<?php echo esc_url(get_theme_file_uri('/assets/image/Resume/JhonicarAlpuerto.jpg')); ?>" data-resume-name="Jhonicar Alpuerto">View resume <span aria-hidden="true">↗</span></button>
                     <div class="member-links">
                         <a href="mailto:occ.alpuerto.jhonicar@gmail.com"><svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg><span>Email Jhonicar</span><svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
                         <a href="https://www.facebook.com/jhonicar.alpuerto.5" target="_blank" rel="noopener noreferrer"><svg class="social-icon facebook-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V3.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V10H7.3v3h2.8v8h3.4Z"/></svg><span>Facebook</span><svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
