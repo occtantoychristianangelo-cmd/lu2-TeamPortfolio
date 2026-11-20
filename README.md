@@ -1,56 +1,149 @@
+<div align="center">
+
 # LU2 Portfolio
 
-LU2 Portfolio is a WordPress theme and homepage for a four-person project team. It introduces the team, highlights our projects, and gives visitors direct email and Facebook links for each member.
+### One team. Three projects. A shared place to explore our work.
 
-## Projects
+**A custom WordPress portfolio for the LU2 team — built to introduce the people, showcase the projects, and make it easy to connect.**
 
-### LU2 Portfolio — one shared portfolio
+<p>
+  <img src="https://img.shields.io/badge/WordPress-theme-21759B?logo=wordpress&logoColor=white" alt="WordPress theme">
+  <img src="https://img.shields.io/badge/PHP-theme-777BB4?logo=php&logoColor=white" alt="PHP theme">
+  <img src="https://img.shields.io/badge/CSS-responsive-663399?logo=css3&logoColor=white" alt="Responsive CSS">
+  <img src="https://img.shields.io/badge/JavaScript-interactions-F7DF1E?logo=javascript&logoColor=111111" alt="JavaScript">
+</p>
 
-The portfolio brings our people and work together in one place. Visitors can read the team profiles, explore project summaries, and contact a member directly. The responsive layout uses individual team portraits, subtle on-scroll reveals, and hover interactions to make the site feel lively without getting in the way.
+<p><a href="#projects">Explore projects</a> · <a href="#team">Meet the team</a> · <a href="#getting-started">Run it locally</a></p>
 
-### BotiTea — drinks shop management system
+</div>
 
-BotiTea is a focused management system for a milk tea and drinks shop. Its staff and admin screens cover order tracking, drink product management, and staff accounts. The system centers on beverages such as milk tea and other drinks, rather than the broader restaurant operations covered by Resto Freeno. Screenshots are in `wp-content/themes/teamportfolio/assets/image/ProjectsImages/` as `BotiTea-S1.png`, `BotiTea-S2.png`, and `BotiTea-S3.png`.
+---
 
-### Resto Freeno — restaurant management system
+## ✨ About the project
 
-Resto Freeno is a broader restaurant management system. Its screenshots are `RestoFreeno-S1.png`, `RestoFreeno-S2.png`, and `RestoFreeno-S3.png` in the same image directory.
+LU2 Portfolio is a responsive team website built as a custom WordPress theme. It brings together four member profiles, project highlights, contact links, and small interactive details in one warm, forest-inspired design.
 
-Project cards include expandable project notes and show the supplied screenshots in a compact gallery. The LU2 project uses `LU2Portfolio.png`; BotiTea and Resto Freeno each display their three numbered screenshots.
+### At a glance
 
-## Team
+| 👥 People | 🧩 Projects | 🎨 Theme | ✨ Interaction |
+|:--|:--|:--|:--|
+| Four member profiles with portraits and resumes | LU2 Portfolio, BotiTea, and Resto Freeno | Ink, forest green, sage, warm off-white, and sand | Project carousel, expandable details, mini-games, and motion effects |
 
-| Name | Email | Facebook |
-| --- | --- | --- |
-| Christian Angelo Tantoy | [occ.tantoy.christianangelo@gmail.com](mailto:occ.tantoy.christianangelo@gmail.com) | [Profile](https://www.facebook.com/profile.php?id=100079167701761) |
-| Edejon Loquias | [occ.loquias.edejon2004@gmail.com](mailto:occ.loquias.edejon2004@gmail.com) | [Profile](https://www.facebook.com/share/1CbzuKs8p6/) |
-| Noel Oculares | [occ.oculares.noel@gmail.com](mailto:occ.oculares.noel@gmail.com) | [Profile](https://www.facebook.com/share/1CDjB4vEft/) |
-| Jhonicar Alpuerto | [occ.alpuerto.jhonicar@gmail.com](mailto:occ.alpuerto.jhonicar@gmail.com) | [Profile](https://www.facebook.com/jhonicar.alpuerto.5) |
+## 🖼️ Project previews
 
-### Member profiles
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong>🧋 BotiTea</strong><br>
+      A drinks shop management system for orders, products, and staff.<br><br>
+      <img src="wp-content/themes/teamportfolio/assets/image/ProjectsImages/BotiTea-S1.png" alt="BotiTea dashboard preview" width="100%">
+    </td>
+    <td align="center" width="50%">
+      <strong>🍽️ Resto Freeno</strong><br>
+      Restaurant operations for orders, tables, and stock.<br><br>
+      <img src="wp-content/themes/teamportfolio/assets/image/ProjectsImages/RestoFreeno-S1.png" alt="Resto Freeno system preview" width="100%">
+    </td>
+  </tr>
+</table>
 
-- **Christian Angelo Tantoy — Programmer:** enjoys programming and playing MOBA games.
-- **Edejon Loquias — Technical Writer:** the youngest member of the group.
-- **Noel Oculares — System Analyst:** curious and likes to question assumptions.
-- **Jhonicar Alpuerto — Project Manager:** likes to stay up to date on project progress.
+<details>
+  <summary>View the LU2 Portfolio page preview</summary>
+  <br>
+  <img src="wp-content/themes/teamportfolio/assets/image/ProjectsImages/LU2Portfolio.png" alt="Full page preview of the LU2 Portfolio website" width="720">
+</details>
 
-## Design and motion
+## 🚀 What you can explore
 
-The visual theme follows the supplied palette:
+- **Meet the team:** Four profiles with portraits, roles, biographies, and direct contact links.
+- **View resumes:** Open each member’s resume JPEG in an animated image viewer.
+- **Explore projects:** Browse screenshots and expandable summaries for the portfolio, BotiTea, and Resto Freeno.
+- **Play a little:** Try the interactive games section and its portrait puzzles.
+- **Enjoy thoughtful motion:** Scroll reveals and interface transitions add movement while reduced-motion preferences are respected.
+- **Use it on any screen:** Responsive layouts adapt the portfolio for desktop, tablet, and mobile.
 
-- Ink: `#0c0a08`
-- Forest green: `#2a3723`
-- Sage: `#b9bba8`
-- Warm off-white: `#e8e5dd`
-- Sand: `#dcbc98`
+## 👋 The team
 
-The homepage has responsive project and team sections, an animated BotiTea drinks preview, and optional scroll-reveal effects. Scroll reveals are enabled when the browser supports `IntersectionObserver`; visitors who prefer reduced motion are shown the content without motion.
+| Member | Role | Contact |
+|:--|:--|:--|
+| **Christian Angelo Tantoy** | Programmer | [Email](mailto:occ.tantoy.christianangelo@gmail.com) · [Facebook](https://www.facebook.com/profile.php?id=100079167701761) |
+| **Edejon Loquias** | Technical Writer | [Email](mailto:occ.loquias.edejon2004@gmail.com) · [Facebook](https://www.facebook.com/share/1CbzuKs8p6/) |
+| **Noel Oculares** | System Analyst | [Email](mailto:occ.oculares.noel@gmail.com) · [Facebook](https://www.facebook.com/share/1CDjB4vEft/) |
+| **Jhonicar Alpuerto** | Project Manager | [Email](mailto:occ.alpuerto.jhonicar@gmail.com) · [Facebook](https://www.facebook.com/jhonicar.alpuerto.5) |
 
-## Install
+## 🧰 Built with
 
-1. Copy `wp-content/themes/teamportfolio` into the `wp-content/themes/` directory of a WordPress installation.
-2. Activate **LU2 Portfolio** under **Appearance → Themes**.
-3. Set the site name and tagline under **Settings → General**.
-4. Optionally create and assign a **Primary Menu** under **Appearance → Menus**. If no menu is assigned, the theme shows links to the homepage sections automatically.
+| Technology | How it is used |
+|:--|:--|
+| **WordPress** | CMS and theme runtime |
+| **PHP** | Theme templates, setup, and WordPress hooks |
+| **HTML** | Page structure and accessible content |
+| **CSS** | Layout, responsive styling, theme, and keyframe animations |
+| **JavaScript** | Carousel, games, resume viewer, and interactive behavior |
 
-The homepage uses WordPress's `front-page.php` template. Member portraits and project screenshots are stored in `wp-content/themes/teamportfolio/assets/image/`. The home page supplies description and Open Graph metadata; its social preview image uses the front page's featured image when one is set. Theme styles and the motion script are in `css/` and `js/` and are enqueued by `functions.php`.
+## 🗂️ Project structure
+
+```text
+lu2-TeamPortfolio/
+├── wp-admin/                         # WordPress administration
+├── wp-content/
+│   ├── plugins/                      # Installed WordPress plugins
+│   └── themes/
+│       └── teamportfolio/            # Custom LU2 portfolio theme
+│           ├── assets/
+│           │   ├── audio/            # Theme sound effects
+│           │   └── image/
+│           │       ├── ProjectsImages/ # Project screenshots and logos
+│           │       └── Resume/         # Team resume JPEGs
+│           ├── css/
+│           │   ├── style.css         # Main styles and components
+│           │   └── homesection.css   # Homepage and seasonal effects
+│           ├── js/
+│           │   └── motion.js         # Motion and interactive features
+│           ├── front-page.php        # Portfolio homepage
+│           ├── functions.php         # Theme setup and asset loading
+│           ├── header.php            # Site header and navigation
+│           ├── footer.php            # Site footer
+│           ├── index.php             # WordPress fallback template
+│           └── style.css             # WordPress theme information
+├── wp-includes/                      # WordPress core libraries
+├── wp-config.php                     # Local WordPress configuration
+└── README.md
+```
+
+## 🛠️ Getting started
+
+This repository contains a WordPress site. Start it with a local WordPress environment such as Laragon, then:
+
+1. Place the project in your local web root and create a MySQL database for the site.
+2. Set the database name, username, and password in `wp-config.php` for your local setup.
+3. Start the web server and database, then open the site through your local WordPress URL.
+4. In WordPress Admin, open **Appearance → Themes** and activate **LU2 Portfolio**.
+5. Optionally assign a **Primary Menu** under **Appearance → Menus**. The theme provides section links when no menu is assigned.
+
+To install only the theme in an existing WordPress site, copy `wp-content/themes/teamportfolio/` into that site's `wp-content/themes/` directory and activate it from the dashboard.
+
+## 🎨 Design notes
+
+The interface uses a quiet, earthy palette with clear contrast and small moments of motion.
+
+| Color | Hex |
+|:--|:--|
+| Ink | `#0c0a08` |
+| Forest green | `#2a3723` |
+| Sage | `#b9bba8` |
+| Warm off-white | `#e8e5dd` |
+| Sand | `#dcbc98` |
+
+Motion is reduced for visitors whose device requests reduced motion. The resume viewer, menus, and interactive controls are designed to work with keyboard input as well.
+
+## 📌 Project context
+
+Created as a team portfolio project for the **Bachelor of Science in Information Technology (BSIT)** program. The site presents the team's work and documents the projects in a single responsive experience.
+
+---
+
+<div align="center">
+
+**Made by the LU2 team** · Thanks for stopping by 👋
+
+</div>

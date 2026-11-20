@@ -923,6 +923,125 @@ img {
     transform: translate(3px, -3px);
 }
 
+.resume-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    width: 100%;
+    min-height: 44px;
+    margin: 0 0 18px;
+    padding: 0 14px;
+    border: 1px solid var(--forest);
+    background: var(--forest);
+    color: var(--paper);
+    cursor: pointer;
+    font: inherit;
+    font-size: 0.82rem;
+    font-weight: 800;
+    text-align: left;
+    transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.resume-button:hover,
+.resume-button:focus-visible {
+    transform: translateY(-2px);
+    background: var(--sand);
+    color: var(--ink);
+    box-shadow: 0 8px 18px rgba(12, 10, 8, 0.12);
+}
+
+.resume-button span {
+    transition: transform 0.2s ease;
+}
+
+.resume-button:hover span,
+.resume-button:focus-visible span {
+    transform: translate(2px, -2px);
+}
+
+.resume-dialog {
+    width: min(920px, calc(100% - 32px));
+    max-width: none;
+    max-height: min(92vh, 1100px);
+    padding: 0;
+    overflow: auto;
+    border: 1px solid rgba(220, 188, 152, 0.5);
+    background: var(--ink);
+    color: var(--paper);
+    box-shadow: 0 28px 90px rgba(0, 0, 0, 0.42);
+}
+
+.resume-dialog[open] {
+    animation: resumeDialogIn 0.42s cubic-bezier(0.2, 0.75, 0.25, 1) both;
+}
+
+.resume-dialog::backdrop {
+    background: rgba(16, 20, 15, 0.78);
+    animation: resumeBackdropIn 0.32s ease both;
+    backdrop-filter: blur(5px);
+}
+
+.resume-dialog-frame {
+    padding: clamp(14px, 3vw, 24px);
+}
+
+.resume-dialog-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.resume-dialog-heading h2 {
+    margin: 0;
+    color: var(--paper);
+    font-size: clamp(1.1rem, 3vw, 1.55rem);
+    letter-spacing: -0.035em;
+}
+
+.resume-close {
+    display: grid;
+    width: 42px;
+    height: 42px;
+    flex: 0 0 42px;
+    place-items: center;
+    border: 1px solid rgba(232, 229, 221, 0.35);
+    background: transparent;
+    color: var(--paper);
+    cursor: pointer;
+    font: inherit;
+    font-size: 1.7rem;
+    line-height: 1;
+    transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.resume-close:hover,
+.resume-close:focus-visible {
+    transform: rotate(90deg);
+    background: var(--sand);
+    color: var(--ink);
+}
+
+.resume-dialog-image {
+    display: block;
+    width: 100%;
+    max-height: calc(92vh - 110px);
+    object-fit: contain;
+    background: #f3f1ec;
+}
+
+@keyframes resumeDialogIn {
+    from { opacity: 0; transform: translateY(18px) scale(0.965); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes resumeBackdropIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
 .member-links {
     display: grid;
     gap: 10px;

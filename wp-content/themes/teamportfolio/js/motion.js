@@ -1,4 +1,31 @@
 (function () {
+    var resumeDialog = document.querySelector(".resume-dialog");
+    if (resumeDialog && typeof resumeDialog.showModal === "function") {
+        var resumeImage = resumeDialog.querySelector(".resume-dialog-image");
+        var resumeTitle = resumeDialog.querySelector("#resume-dialog-title");
+        var resumeClose = resumeDialog.querySelector(".resume-close");
+
+        document.querySelectorAll("[data-resume-src]").forEach(function (button) {
+            button.addEventListener("click", function () {
+                var memberName = button.dataset.resumeName || "Team member";
+                resumeImage.src = button.dataset.resumeSrc;
+                resumeImage.alt = "Resume for " + memberName;
+                resumeTitle.textContent = memberName + " — Resume";
+                resumeDialog.showModal();
+            });
+        });
+
+        resumeClose.addEventListener("click", function () {
+            resumeDialog.close();
+        });
+
+        resumeDialog.addEventListener("click", function (event) {
+            if (event.target === resumeDialog) {
+                resumeDialog.close();
+            }
+        });
+    }
+
     var projectCarousel = document.querySelector(".project-carousel");
 
     if (projectCarousel) {
