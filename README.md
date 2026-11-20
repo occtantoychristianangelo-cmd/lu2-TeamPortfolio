@@ -52,6 +52,45 @@ LU2 Portfolio is a responsive team website built as a custom WordPress theme. It
   <img src="wp-content/themes/teamportfolio/assets/image/ProjectsImages/LU2Portfolio.png" alt="Full page preview of the LU2 Portfolio website" width="720">
 </details>
 
+## 🧩 Project details
+
+### 🌿 LU2 Portfolio — team website
+
+The portfolio is the shared home for the four-person LU2 team. It introduces each contributor, explains the work, and gives visitors a direct way to get in touch. The site is a custom WordPress theme with responsive layouts, project snapshots, profile spotlights, resume image viewing, and a small interactive games area.
+
+**Purpose:** Present the team and its projects in one easy-to-explore place.  
+**For:** Visitors, classmates, and collaborators who want to learn about the team or its work.
+
+### 🧋 BotiTea — drinks shop management
+
+BotiTea is a focused system concept for a milk tea and drinks shop. It brings common shop tasks together, including tracking incoming orders, managing drink products, and maintaining staff accounts. Its scope stays centered on beverage shop operations.
+
+**Audience:** Shop staff and administrators.  
+**Key areas:** Order tracking (new, received, and cancelled), drink catalog management, and staff tools.
+
+<details>
+  <summary>Browse BotiTea screenshots</summary>
+  <br>
+  <img src="wp-content/themes/teamportfolio/assets/image/ProjectsImages/BotiTea-S1.png" alt="BotiTea order dashboard" width="32%">
+  <img src="wp-content/themes/teamportfolio/assets/image/ProjectsImages/BotiTea-S2.png" alt="BotiTea staff management" width="32%">
+  <img src="wp-content/themes/teamportfolio/assets/image/ProjectsImages/BotiTea-S3.png" alt="BotiTea drink product catalog" width="32%">
+</details>
+
+### 🍽️ Resto Freeno — restaurant operations
+
+Resto Freeno explores a wider view of daily restaurant service. The concept brings order flow, table sessions, and stock information together so a restaurant team can keep track of service from one place. It covers broader restaurant operations than BotiTea’s drinks-focused scope.
+
+**Audience:** Restaurant teams coordinating daily service.  
+**Key areas:** Order flow, table session visibility, and stock information.
+
+<details>
+  <summary>Browse Resto Freeno screenshots</summary>
+  <br>
+  <img src="wp-content/themes/teamportfolio/assets/image/ProjectsImages/RestoFreeno-S1.png" alt="Resto Freeno menu management" width="32%">
+  <img src="wp-content/themes/teamportfolio/assets/image/ProjectsImages/RestoFreeno-S2.png" alt="Resto Freeno restaurant operations" width="32%">
+  <img src="wp-content/themes/teamportfolio/assets/image/ProjectsImages/RestoFreeno-S3.png" alt="Resto Freeno service overview" width="32%">
+</details>
+
 ## 🚀 What you can explore
 
 - **Meet the team:** Four profiles with portraits, roles, biographies, and direct contact links.

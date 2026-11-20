@@ -776,7 +776,7 @@ img {
     isolation: isolate;
     padding: 92px 0 98px;
     background-color: var(--sage);
-    background-image: linear-gradient(rgba(185, 187, 168, 0.62), rgba(185, 187, 168, 0.76)), url("../assets/image/TeamPhoto.png");
+    background-image: linear-gradient(rgba(185, 187, 168, 0.28), rgba(185, 187, 168, 0.38)), url("../assets/image/TeamPhoto.png");
     background-repeat: no-repeat;
     background-position: center 54%;
     background-size: cover;
@@ -803,7 +803,8 @@ img {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 16px;
-    margin-top: 34px;
+    width: min(100%, 1080px);
+    margin: 76px auto 0;
 }
 
 .team-card {
@@ -835,7 +836,7 @@ img {
 
 .member-photo {
     position: relative;
-    aspect-ratio: 4 / 4.5;
+    aspect-ratio: 1;
     overflow: hidden;
     margin-bottom: 20px;
     background: var(--sage);
@@ -980,7 +981,7 @@ img {
 }
 
 .resume-dialog {
-    width: min(920px, calc(100% - 32px));
+    width: min(700px, calc(100% - 32px));
     max-width: none;
     max-height: min(92vh, 1100px);
     padding: 0;
@@ -1002,7 +1003,7 @@ img {
 }
 
 .resume-dialog-frame {
-    padding: clamp(14px, 3vw, 24px);
+    padding: 16px;
 }
 
 .resume-dialog-heading {
