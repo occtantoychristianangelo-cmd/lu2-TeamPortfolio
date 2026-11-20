@@ -331,11 +331,26 @@
             </div>
 
             <div class="team-grid">
-                <article class="team-card" id="christian-angelo-tantoy" data-reveal>
+                <article class="team-card" id="jhonicar-alpuerto" data-reveal>
                     <div class="member-topline"><span>TEAM MEMBER</span><span>01</span></div>
                     <div class="member-photo">
-                        <img src="<?php echo esc_url(get_theme_file_uri('/assets/image/ChristianAngeloTantoy.png')); ?>" alt="Portrait of Christian Angelo Tantoy" loading="lazy">
+                        <img src="<?php echo esc_url(get_theme_file_uri('/assets/image/JhonicarAlpuerto.png')); ?>" alt="Portrait of Jhonicar Alpuerto" loading="lazy">
                         <span class="photo-index">01</span>
+                    </div>
+                    <h3>Jhonicar Alpuerto</h3>
+                    <p class="member-role">Project Manager</p>
+                    <p class="member-description">Jhonicar follows project updates and keeps an eye on what the team should tackle next.</p>
+                    <a class="member-profile-link" href="#profile-jhonicar">View member profile <span aria-hidden="true">↗</span></a>
+                    <div class="member-links">
+                        <a href="mailto:occ.alpuerto.jhonicar@gmail.com"><svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg><span>Email Jhonicar</span><svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                        <a href="https://www.facebook.com/jhonicar.alpuerto.5" target="_blank" rel="noopener noreferrer"><svg class="social-icon facebook-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V3.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V10H7.3v3h2.8v8h3.4Z"/></svg><span>Facebook</span><svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+                    </div>
+                </article>
+                <article class="team-card" id="christian-angelo-tantoy" data-reveal>
+                    <div class="member-topline"><span>TEAM MEMBER</span><span>02</span></div>
+                    <div class="member-photo">
+                        <img src="<?php echo esc_url(get_theme_file_uri('/assets/image/ChristianAngeloTantoy.png')); ?>" alt="Portrait of Christian Angelo Tantoy" loading="lazy">
+                        <span class="photo-index">02</span>
                     </div>
                     <h3>Christian Angelo Tantoy</h3>
                     <p class="member-role">Programmer</p>
@@ -347,10 +362,10 @@
                     </div>
                 </article>
                 <article class="team-card" id="edejon-loquias" data-reveal>
-                    <div class="member-topline"><span>TEAM MEMBER</span><span>02</span></div>
+                    <div class="member-topline"><span>TEAM MEMBER</span><span>03</span></div>
                     <div class="member-photo">
                         <img src="<?php echo esc_url(get_theme_file_uri('/assets/image/EdejonLoquias.png')); ?>" alt="Portrait of Edejon Loquias" loading="lazy">
-                        <span class="photo-index">02</span>
+                        <span class="photo-index">03</span>
                     </div>
                     <h3>Edejon Loquias</h3>
                     <p class="member-role">Technical Writer</p>
@@ -362,10 +377,10 @@
                     </div>
                 </article>
                 <article class="team-card" id="noel-oculares" data-reveal>
-                    <div class="member-topline"><span>TEAM MEMBER</span><span>03</span></div>
+                    <div class="member-topline"><span>TEAM MEMBER</span><span>04</span></div>
                     <div class="member-photo">
                         <img src="<?php echo esc_url(get_theme_file_uri('/assets/image/NoelOculares.png')); ?>" alt="Portrait of Noel Oculares" loading="lazy">
-                        <span class="photo-index">03</span>
+                        <span class="photo-index">04</span>
                     </div>
                     <h3>Noel Oculares</h3>
                     <p class="member-role">System Analyst</p>
@@ -374,21 +389,6 @@
                     <div class="member-links">
                         <a href="mailto:occ.oculares.noel@gmail.com"><svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg><span>Email Noel</span><svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
                         <a href="https://www.facebook.com/share/1CDjB4vEft/" target="_blank" rel="noopener noreferrer"><svg class="social-icon facebook-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V3.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V10H7.3v3h2.8v8h3.4Z"/></svg><span>Facebook</span><svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-                    </div>
-                </article>
-                <article class="team-card" id="jhonicar-alpuerto" data-reveal>
-                    <div class="member-topline"><span>TEAM MEMBER</span><span>04</span></div>
-                    <div class="member-photo">
-                        <img src="<?php echo esc_url(get_theme_file_uri('/assets/image/JhonicarAlpuerto.png')); ?>" alt="Portrait of Jhonicar Alpuerto" loading="lazy">
-                        <span class="photo-index">04</span>
-                    </div>
-                    <h3>Jhonicar Alpuerto</h3>
-                    <p class="member-role">Project Manager</p>
-                    <p class="member-description">Jhonicar follows project updates and keeps an eye on what the team should tackle next.</p>
-                    <a class="member-profile-link" href="#profile-jhonicar">View member profile <span aria-hidden="true">↗</span></a>
-                    <div class="member-links">
-                        <a href="mailto:occ.alpuerto.jhonicar@gmail.com"><svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg><span>Email Jhonicar</span><svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-                        <a href="https://www.facebook.com/jhonicar.alpuerto.5" target="_blank" rel="noopener noreferrer"><svg class="social-icon facebook-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V3.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V10H7.3v3h2.8v8h3.4Z"/></svg><span>Facebook</span><svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
                     </div>
                 </article>
             </div>

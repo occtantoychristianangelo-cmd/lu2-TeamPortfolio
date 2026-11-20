@@ -92,8 +92,9 @@ lu2-TeamPortfolio/
 │           ├── assets/
 │           │   ├── audio/            # Theme sound effects
 │           │   └── image/
-│           │       ├── ProjectsImages/ # Project screenshots and logos
-│           │       └── Resume/         # Team resume JPEGs
+│           │       ├── TeamPhoto.png    # Team section background
+│           │       ├── ProjectsImages/  # Project screenshots and logos
+│           │       └── Resume/          # Team resume JPEGs
 │           ├── css/
 │           │   ├── style.css         # Main styles and components
 │           │   └── homesection.css   # Homepage and seasonal effects
